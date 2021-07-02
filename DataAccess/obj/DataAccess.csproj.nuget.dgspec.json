@@ -131,21 +131,7 @@
               "target": "Package",
               "version": "[5.0.7, )"
             },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.7, )"
-            },
-            "Microsoft.EntityFrameworkCore.Proxies": {
-              "target": "Package",
-              "version": "[5.0.7, )"
-            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[5.0.7, )"
-            },
-            "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
               "version": "[5.0.7, )"
             }
@@ -208,16 +194,6 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "dependencies": {
-            "Microsoft.Extensions.Identity.Core": {
-              "target": "Package",
-              "version": "[5.0.7, )"
-            },
-            "Microsoft.Extensions.Identity.Stores": {
-              "target": "Package",
-              "version": "[5.0.7, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

@@ -23,18 +23,13 @@ namespace DataAccess.EntityFramework.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfiguration(new AppUserEntityConfiguration());
-            modelBuilder.ApplyConfiguration(new CategoryEntityConfiguration());
-            modelBuilder.ApplyConfiguration(new CommentEntityConfiguration());
-            modelBuilder.ApplyConfiguration(new PostEntityConfiguration());
-            modelBuilder.ApplyConfiguration(new TagEntityConfiguration());
+            modelBuilder.ApplyConfiguration<Post>(new BaseEntityConfiguration<Post>());
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder
-                .UseSqlServer(@"server=(localdb)\MSSQLLocalDB;database=BlogLandDb;Trusted_Connection=true")
-                .UseLazyLoadingProxies();
+                .UseSqlServer(@"server=(localdb)\MSSQLLocalDB;database=BlogLandDb;Trusted_Connection=true");
         }
 
         // overriding SaveChanges method to set default values for DateTime properties

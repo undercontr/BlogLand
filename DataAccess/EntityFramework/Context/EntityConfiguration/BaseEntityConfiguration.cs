@@ -9,7 +9,7 @@ using Core.CommonTypes.Entities;
 
 namespace DataAccess.EntityFramework.Context.EntityConfiguration
 {
-    public abstract class BaseEntityConfiguration<TEntity> : IEntityTypeConfiguration<TEntity> where TEntity : BaseEntity, new()
+    public class BaseEntityConfiguration<TEntity> : IEntityTypeConfiguration<TEntity> where TEntity : BaseEntity, new()
     {
         public virtual void Configure(EntityTypeBuilder<TEntity> builder)
         {

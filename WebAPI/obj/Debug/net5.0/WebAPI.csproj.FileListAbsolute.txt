@@ -11,8 +11,6 @@ C:\Users\Alya\Desktop\BlogLand\WebAPI\bin\Debug\net5.0\Autofac.dll
 C:\Users\Alya\Desktop\BlogLand\WebAPI\bin\Debug\net5.0\Autofac.Extras.DynamicProxy.dll
 C:\Users\Alya\Desktop\BlogLand\WebAPI\bin\Debug\net5.0\Castle.Core.dll
 C:\Users\Alya\Desktop\BlogLand\WebAPI\bin\Debug\net5.0\FluentValidation.dll
-C:\Users\Alya\Desktop\BlogLand\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\Alya\Desktop\BlogLand\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\Alya\Desktop\BlogLand\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\Alya\Desktop\BlogLand\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 C:\Users\Alya\Desktop\BlogLand\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
@@ -23,13 +21,10 @@ C:\Users\Alya\Desktop\BlogLand\WebAPI\bin\Debug\net5.0\Microsoft.Data.SqlClient.
 C:\Users\Alya\Desktop\BlogLand\WebAPI\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\Alya\Desktop\BlogLand\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\Alya\Desktop\BlogLand\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Alya\Desktop\BlogLand\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Proxies.dll
 C:\Users\Alya\Desktop\BlogLand\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Alya\Desktop\BlogLand\WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\Alya\Desktop\BlogLand\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Alya\Desktop\BlogLand\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\Alya\Desktop\BlogLand\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
-C:\Users\Alya\Desktop\BlogLand\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\Alya\Desktop\BlogLand\WebAPI\bin\Debug\net5.0\Microsoft.Identity.Client.dll
 C:\Users\Alya\Desktop\BlogLand\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\Alya\Desktop\BlogLand\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll

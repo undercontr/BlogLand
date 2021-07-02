@@ -9,7 +9,7 @@ using Core.CommonTypes.Entities;
 
 namespace Core.EntityFramework.Repository
 {
-    public abstract class BaseEntityRepository<TEntity, TContext> : IEntityRepository<TEntity>
+    public class BaseEntityRepository<TEntity, TContext> : IEntityRepository<TEntity>
         where TEntity : class, IEntity, new()
         where TContext : DbContext, new()
     {
@@ -45,34 +45,27 @@ namespace Core.EntityFramework.Repository
 
         public TEntity Get(Expression<Func<TEntity, bool>> predicate)
         {
-            TEntity entity;
             using (TContext context = new TContext())
             {
-                entity = context.Set<TEntity>().SingleOrDefault(predicate);
+                return context.Set<TEntity>().SingleOrDefault(predicate);
             }
 
-            return entity;
         }
 
         public ICollection<TEntity> GetAll()
         {
-            ICollection<TEntity> entities;
-            TContext context = new TContext();
-            
-            entities = context.Set<TEntity>().ToList();
-
-            return entities;
+            using (TContext context = new TContext())
+            {
+                return context.Set<TEntity>().ToList();
+            }
         }
 
         public ICollection<TEntity> GetAll(Expression<Func<TEntity, bool>> predicate)
         {
-            ICollection<TEntity> entities;
             using (TContext context = new TContext())
             {
-                entities = context.Set<TEntity>().Where(predicate).ToList();
+                return context.Set<TEntity>().Where(predicate).ToList();
             }
-
-            return entities;
         }
     }
 }
